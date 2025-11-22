@@ -1,17 +1,65 @@
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  interpolate-size: allow-keywords;
 }
 
-/* Remove default margin */
+*,
+::before,
+::after,
+::backdrop,
+::file-selector-button {
+  box-sizing: border-box;
+  border: 0 solid transparent;
+}
+
+html {
+  color-scheme: dark light;
+  line-height: 1.5;
+  hanging-punctuation: first last;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  -webkit-tab-size: 4;
+  &:focus-within {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: Canvas;
+  color: CanvasText;
+  line-height: inherit;
+  margin: 0;
+  min-height: 100svh;
+}
+
+body > :is(header, footer),
+main,
+section,
+article {
+  container-type: inline-size;
+}
+
+hr {
+  border-block-start-width: 1px;
+  color: inherit;
+  height: 0;
+}
+
+abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+
 body,
 h1,
 h2,
 h3,
 h4,
+h5,
+h6,
+hr,
 p,
+pre,
 figure,
 blockquote,
 dl,
@@ -19,45 +67,137 @@ dd {
   margin: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+p,
+li,
+figcaption {
+  max-width: 70ch;
+  text-wrap: pretty;
+}
+
+ul,
+ol,
+menu {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
+textarea {
+  resize: vertical;
 }
 
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
 img,
-picture {
-  max-width: 100%;
+svg,
+picture,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
   display: block;
 }
 
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
+img,
+picture,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+b,
+strong {
+  font-weight: bolder;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+input,
+button,
+optgroup,
+textarea,
+select {
+  color: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+summary {
+  display: list-item;
+}
+
+[hidden] {
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
