@@ -294,6 +294,11 @@
   /* Language Selector Styles */
   #language-selector {
     position: relative;
+    isolation: isolate;
+    button {      
+      anchor-name: --languages;
+    }
+
   }
 
   .lang-trigger {
@@ -310,7 +315,6 @@
     font-size: 0.9rem;
     font-weight: 500;
     transition: all 0.2s ease;
-    anchor-name: --languages;
   }
 
   .lang-trigger:hover {
@@ -328,9 +332,11 @@
   }
 
   #languages {
+    inset: auto;
     position: absolute;
     position-anchor: --languages;
-    top: anchor(bottom end);
+    position-try-fallbacks: --left;
+    top: anchor(bottom);
     right: anchor(right);
     margin: var(--space-2) 0 0 0;
     padding: 0;
@@ -338,23 +344,21 @@
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
-    min-width: 200px;
+    width: max-content;
     opacity: 0;
     transform: translateY(-10px);
-    transition: opacity 0.2s ease, transform 0.2s ease, display 0.2s allow-discrete;
+    transition: block-size 0.2s ease, opacity 0.2s ease, transform 0.2s ease, display 0.2s allow-discrete;
     z-index: 100;
-    
-    /* Fallback positioning if anchor not supported */
-    inset: auto;
-    right: 0;
   }
 
   #languages:popover-open {
     display: block;
     opacity: 1;
+    block-size: auto;
     transform: translateY(0);
     
     @starting-style {
+      block-size: 0;
       opacity: 0;
       transform: translateY(-10px);
     }
