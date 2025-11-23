@@ -1,0 +1,561 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-23T18:47:23.994Z\n"
+"PO-Revision-Date: 2025-11-23T18:47:23.994Z\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"MIME-Version: 1.0\n"
+
+#: src/lib/components/Education.svelte
+msgid "ITIS \"E. Fermi\" - Fuscaldo"
+msgstr "ITIS \"E. Fermi\" - Fuscaldo"
+
+#: src/lib/components/Education.svelte
+msgid "High School, Information Technology"
+msgstr "High School, Information Technology"
+
+#: src/lib/components/Education.svelte
+msgid "Comprehensive study of computer science fundamentals, programming, and electronics."
+msgstr "Comprehensive study of computer science fundamentals, programming, and electronics."
+
+#: src/lib/components/Education.svelte
+#: src/lib/components/Footer.svelte
+msgid "Education"
+msgstr "Education"
+
+#: src/lib/components/Education.svelte
+msgid "Grade:"
+msgstr "Grade:"
+
+#: src/lib/components/About.svelte
+msgid "Hi! I'm a developer who loves digging into how things work."
+msgstr "Hi! I'm a developer who loves digging into how things work."
+
+#: src/lib/components/About.svelte
+msgid ""
+"My comfort zone is in the <0>JavaScript</0> and <1>TypeScript</1> ecosystem (both frontend and backend),\n"
+"but I'm currently diving deep into systems programming with <2>Go</2> and <3>Rust</3>."
+msgstr ""
+"My comfort zone is in the <0>JavaScript</0> and <1>TypeScript</1> ecosystem (both frontend and backend),\n"
+"but I'm currently diving deep into systems programming with <2>Go</2> and <3>Rust</3>."
+
+#: src/lib/components/About.svelte
+msgid ""
+"I'm also fascinated by the intersection of the digital and physical worlds through <0>AR/VR</0>, <1>IoT</1>, and <2>Robotics</2>.\n"
+"I love meeting new people and swapping ideas, so don't hesitate to reach out!"
+msgstr ""
+"I'm also fascinated by the intersection of the digital and physical worlds through <0>AR/VR</0>, <1>IoT</1>, and <2>Robotics</2>.\n"
+"I love meeting new people and swapping ideas, so don't hesitate to reach out!"
+
+#: src/lib/components/About.svelte
+msgid "Full Stack"
+msgstr "Full Stack"
+
+#: src/lib/components/About.svelte
+msgid "Building scalable web applications with modern JS/TS stacks."
+msgstr "Building scalable web applications with modern JS/TS stacks."
+
+#: src/lib/components/About.svelte
+msgid "Systems"
+msgstr "Systems"
+
+#: src/lib/components/About.svelte
+msgid "Exploring high-performance computing with Go and Rust."
+msgstr "Exploring high-performance computing with Go and Rust."
+
+#: src/lib/components/About.svelte
+msgid "Future Tech"
+msgstr "Future Tech"
+
+#: src/lib/components/About.svelte
+msgid "Bridging digital and physical realms via IoT and Robotics."
+msgstr "Bridging digital and physical realms via IoT and Robotics."
+
+#: src/lib/components/Header.svelte
+msgid "AB"
+msgstr "AB"
+
+#: src/lib/components/Footer.svelte
+#: src/lib/components/Header.svelte
+msgid "About"
+msgstr "About"
+
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Footer.svelte
+#: src/lib/components/Header.svelte
+msgid "Experience"
+msgstr "Experience"
+
+#: src/lib/components/Footer.svelte
+#: src/lib/components/Header.svelte
+msgid "Skills"
+msgstr "Skills"
+
+#: src/lib/components/Footer.svelte
+#: src/lib/components/Header.svelte
+#: src/lib/components/Languages.svelte
+#: src/lib/components/Skills.svelte
+msgid "Languages"
+msgstr "Languages"
+
+#: src/lib/components/Footer.svelte
+#: src/lib/components/Header.svelte
+msgid "Projects"
+msgstr "Projects"
+
+#: src/lib/components/Header.svelte
+msgid "Toggle theme"
+msgstr "Toggle theme"
+
+#: src/lib/components/Header.svelte
+msgid "Select language"
+msgstr "Select language"
+
+#: src/lib/components/Header.svelte
+msgid "Select Language"
+msgstr "Select Language"
+
+#~ msgid "Choose your preferred language"
+#~ msgstr "Choose your preferred language"
+
+#: src/lib/components/Footer.svelte
+#: src/lib/components/Header.svelte
+msgid "Alessandro Bonanno"
+msgstr "Alessandro Bonanno"
+
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Header.svelte
+msgid "Frontend Engineer"
+msgstr "Frontend Engineer"
+
+#: src/lib/components/Header.svelte
+msgid "Crafting pixel-perfect, performant, and accessible web experiences."
+msgstr "Crafting pixel-perfect, performant, and accessible web experiences."
+
+#: src/lib/components/Footer.svelte
+#: src/lib/components/Header.svelte
+msgid "Email"
+msgstr "Email"
+
+#: src/lib/components/Header.svelte
+msgid "15blex@gmail.com"
+msgstr "15blex@gmail.com"
+
+#: src/lib/components/Footer.svelte
+#: src/lib/components/Header.svelte
+#: src/lib/components/Header.svelte
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: src/lib/components/Header.svelte
+msgid "Barcelona, ES"
+msgstr "Barcelona, ES"
+
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+msgid "Full-time"
+msgstr "Full-time"
+
+#: src/lib/components/Experience.svelte
+msgid "Aug 2019 - Present"
+msgstr "Aug 2019 - Present"
+
+#: src/lib/components/Experience.svelte
+msgid "Barcelona Area, Spain"
+msgstr "Barcelona Area, Spain"
+
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+msgid "Full Stack Developer"
+msgstr "Full Stack Developer"
+
+#: src/lib/components/Experience.svelte
+msgid "Hyperting"
+msgstr "Hyperting"
+
+#: src/lib/components/Experience.svelte
+msgid "Oct 2018 - Jul 2019"
+msgstr "Oct 2018 - Jul 2019"
+
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+msgid "Bologna Area, Italy"
+msgstr "Bologna Area, Italy"
+
+#: src/lib/components/Experience.svelte
+msgid "Analyst Developer"
+msgstr "Analyst Developer"
+
+#: src/lib/components/Experience.svelte
+msgid "Imola Informatica"
+msgstr "Imola Informatica"
+
+#: src/lib/components/Experience.svelte
+msgid "Jul 2018 - Sep 2018"
+msgstr "Jul 2018 - Sep 2018"
+
+#: src/lib/components/Experience.svelte
+msgid "Imola"
+msgstr "Imola"
+
+#: src/lib/components/Experience.svelte
+msgid "Cubbit"
+msgstr "Cubbit"
+
+#: src/lib/components/Experience.svelte
+msgid "Nov 2017 - Jul 2018"
+msgstr "Nov 2017 - Jul 2018"
+
+#: src/lib/components/Experience.svelte
+msgid "Remoria VR"
+msgstr "Remoria VR"
+
+#: src/lib/components/Experience.svelte
+msgid "Sep 2017 - Nov 2017"
+msgstr "Sep 2017 - Nov 2017"
+
+#: src/lib/components/Experience.svelte
+msgid "Interface Developer for SCAI Consulting"
+msgstr "Interface Developer for SCAI Consulting"
+
+#: src/lib/components/Experience.svelte
+msgid "Jul 2016 - Sep 2017"
+msgstr "Jul 2016 - Sep 2017"
+
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+msgid "Web Developer"
+msgstr "Web Developer"
+
+#: src/lib/components/Experience.svelte
+msgid "Fdm Consulting"
+msgstr "Fdm Consulting"
+
+#: src/lib/components/Experience.svelte
+msgid "Jun 2015 - Jul 2016"
+msgstr "Jun 2015 - Jul 2016"
+
+#: src/lib/components/Experience.svelte
+msgid "Dynamic and static website development, SEO"
+msgstr "Dynamic and static website development, SEO"
+
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+msgid "Substitute Teacher"
+msgstr "Substitute Teacher"
+
+#: src/lib/components/Experience.svelte
+msgid "IIS Belluzzi-Fioravanti"
+msgstr "IIS Belluzzi-Fioravanti"
+
+#: src/lib/components/Experience.svelte
+msgid "Dec 2015 - Jun 2016"
+msgstr "Dec 2015 - Jun 2016"
+
+#: src/lib/components/Experience.svelte
+msgid "Teaching in Electronic Laboratory"
+msgstr "Teaching in Electronic Laboratory"
+
+#: src/lib/components/Experience.svelte
+#: src/lib/components/Experience.svelte
+msgid "Fondazione Aldini Valeriani"
+msgstr "Fondazione Aldini Valeriani"
+
+#: src/lib/components/Experience.svelte
+msgid "Oct 2015 - Dec 2015"
+msgstr "Oct 2015 - Dec 2015"
+
+#: src/lib/components/Experience.svelte
+msgid "TOP teaching"
+msgstr "TOP teaching"
+
+#: src/lib/components/Experience.svelte
+msgid "Feb 2015 - Jun 2015"
+msgstr "Feb 2015 - Jun 2015"
+
+#: src/lib/components/Experience.svelte
+msgid "Electronics laboratory teacher"
+msgstr "Electronics laboratory teacher"
+
+#: src/lib/components/Experience.svelte
+msgid "Jan 2014 - Apr 2015"
+msgstr "Jan 2014 - Apr 2015"
+
+#: src/lib/components/Experience.svelte
+msgid "Static website development and basic SEO"
+msgstr "Static website development and basic SEO"
+
+#: src/lib/components/Experience.svelte
+msgid "Freelancer"
+msgstr "Freelancer"
+
+#: src/lib/components/Experience.svelte
+msgid "Web design and static website development"
+msgstr "Web design and static website development"
+
+#: src/lib/components/Footer.svelte
+msgid "Frontend Engineer focused on building accessible, pixel-perfect web experiences."
+msgstr "Frontend Engineer focused on building accessible, pixel-perfect web experiences."
+
+#: src/lib/components/Footer.svelte
+msgid "Navigation"
+msgstr "Navigation"
+
+#: src/lib/components/Footer.svelte
+msgid "Connect"
+msgstr "Connect"
+
+#: src/lib/components/Footer.svelte
+msgid "GitHub"
+msgstr "GitHub"
+
+#. placeholder {0}: currentYear
+#: src/lib/components/Footer.svelte
+msgid "© {0} Alessandro Bonanno. Built with SvelteKit."
+msgstr "© {0} Alessandro Bonanno. Built with SvelteKit."
+
+#: src/lib/components/Footer.svelte
+msgid "Back to top"
+msgstr "Back to top"
+
+#: src/lib/components/Languages.svelte
+msgid "Italian"
+msgstr "Italian"
+
+#: src/lib/components/Languages.svelte
+msgid "Native"
+msgstr "Native"
+
+#: src/lib/components/Header.svelte
+#: src/lib/components/Languages.svelte
+msgid "English"
+msgstr "English"
+
+#: src/lib/components/Languages.svelte
+#: src/lib/components/Languages.svelte
+msgid "Fluent"
+msgstr "Fluent"
+
+#: src/lib/components/Languages.svelte
+msgid "Spanish"
+msgstr "Spanish"
+
+#: src/lib/components/Languages.svelte
+msgid "Catalan"
+msgstr "Catalan"
+
+#: src/lib/components/Languages.svelte
+msgid "Basic"
+msgstr "Basic"
+
+#: src/lib/components/Languages.svelte
+msgid "French"
+msgstr "French"
+
+#: src/lib/components/Languages.svelte
+#: src/lib/components/Languages.svelte
+msgid "Learning"
+msgstr "Learning"
+
+#: src/lib/components/Languages.svelte
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: src/lib/components/Skills.svelte
+msgid "JavaScript (ES6+)"
+msgstr "JavaScript (ES6+)"
+
+#: src/lib/components/Skills.svelte
+msgid "TypeScript"
+msgstr "TypeScript"
+
+#: src/lib/components/Skills.svelte
+msgid "Go"
+msgstr "Go"
+
+#: src/lib/components/Skills.svelte
+msgid "Rust"
+msgstr "Rust"
+
+#: src/lib/components/Skills.svelte
+msgid "Frameworks & Libraries"
+msgstr "Frameworks & Libraries"
+
+#: src/lib/components/Projects.svelte
+#: src/lib/components/Skills.svelte
+msgid "Svelte"
+msgstr "Svelte"
+
+#: src/lib/components/Projects.svelte
+#: src/lib/components/Skills.svelte
+msgid "SvelteKit"
+msgstr "SvelteKit"
+
+#: src/lib/components/Projects.svelte
+#: src/lib/components/Skills.svelte
+msgid "React"
+msgstr "React"
+
+#: src/lib/components/Skills.svelte
+msgid "Next.js"
+msgstr "Next.js"
+
+#: src/lib/components/Projects.svelte
+#: src/lib/components/Skills.svelte
+msgid "Node.js"
+msgstr "Node.js"
+
+#: src/lib/components/Skills.svelte
+msgid "Express"
+msgstr "Express"
+
+#: src/lib/components/Projects.svelte
+#: src/lib/components/Skills.svelte
+msgid "TailwindCSS"
+msgstr "TailwindCSS"
+
+#: src/lib/components/Skills.svelte
+msgid "Tools & Platforms"
+msgstr "Tools & Platforms"
+
+#: src/lib/components/Skills.svelte
+msgid "Git"
+msgstr "Git"
+
+#: src/lib/components/Skills.svelte
+msgid "Docker"
+msgstr "Docker"
+
+#: src/lib/components/Skills.svelte
+msgid "Linux"
+msgstr "Linux"
+
+#: src/lib/components/Skills.svelte
+msgid "Webpack"
+msgstr "Webpack"
+
+#: src/lib/components/Projects.svelte
+#: src/lib/components/Skills.svelte
+msgid "Vite"
+msgstr "Vite"
+
+#: src/lib/components/Skills.svelte
+msgid "Interests & Focus"
+msgstr "Interests & Focus"
+
+#: src/lib/components/Skills.svelte
+msgid "UI/UX Design"
+msgstr "UI/UX Design"
+
+#: src/lib/components/Skills.svelte
+msgid "IoT"
+msgstr "IoT"
+
+#: src/lib/components/Skills.svelte
+msgid "Robotics"
+msgstr "Robotics"
+
+#: src/lib/components/Skills.svelte
+msgid "Performance Optimization"
+msgstr "Performance Optimization"
+
+#: src/lib/components/Skills.svelte
+msgid "Accessibility"
+msgstr "Accessibility"
+
+#: src/lib/components/Skills.svelte
+msgid "Technical Skills"
+msgstr "Technical Skills"
+
+#: src/lib/components/Projects.svelte
+msgid "E-commerce Platform"
+msgstr "E-commerce Platform"
+
+#: src/lib/components/Projects.svelte
+msgid "A full-featured online store built with SvelteKit and Stripe integration. Features include a custom cart implementation, user authentication, and a responsive checkout flow."
+msgstr "A full-featured online store built with SvelteKit and Stripe integration. Features include a custom cart implementation, user authentication, and a responsive checkout flow."
+
+#: src/lib/components/Projects.svelte
+msgid "Stripe"
+msgstr "Stripe"
+
+#: src/lib/components/Projects.svelte
+msgid "PostgreSQL"
+msgstr "PostgreSQL"
+
+#: src/lib/components/Projects.svelte
+msgid "Task Management App"
+msgstr "Task Management App"
+
+#: src/lib/components/Projects.svelte
+msgid "A productivity tool for teams with real-time updates using WebSockets. Supports drag-and-drop task organization, team collaboration features, and dark mode."
+msgstr "A productivity tool for teams with real-time updates using WebSockets. Supports drag-and-drop task organization, team collaboration features, and dark mode."
+
+#: src/lib/components/Projects.svelte
+msgid "Socket.io"
+msgstr "Socket.io"
+
+#: src/lib/components/Projects.svelte
+msgid "MongoDB"
+msgstr "MongoDB"
+
+#: src/lib/components/Projects.svelte
+msgid "Portfolio Website"
+msgstr "Portfolio Website"
+
+#: src/lib/components/Projects.svelte
+msgid "A modern, high-performance personal portfolio website built with SvelteKit. Features a premium design system, dark mode support, and perfect Lighthouse scores."
+msgstr "A modern, high-performance personal portfolio website built with SvelteKit. Features a premium design system, dark mode support, and perfect Lighthouse scores."
+
+#: src/lib/components/Projects.svelte
+msgid "CSS Variables"
+msgstr "CSS Variables"
+
+#: src/lib/components/Projects.svelte
+msgid "Featured Projects"
+msgstr "Featured Projects"
+
+#: src/lib/components/Projects.svelte
+msgid "View Project"
+msgstr "View Project"
+
+#: src/lib/components/Projects.svelte
+msgid "GitHub Repo"
+msgstr "GitHub Repo"
+
+#: src/lib/components/Header.svelte
+msgid "Español"
+msgstr "Español"
+
+#: src/lib/components/Header.svelte
+msgid "Català"
+msgstr "Català"
+
+#: src/lib/components/Header.svelte
+msgid "Français"
+msgstr "Français"
+
+#: src/lib/components/Header.svelte
+msgid "Italiano"
+msgstr "Italiano"
+
+#: src/lib/components/Header.svelte
+msgid "Português"
+msgstr "Português"

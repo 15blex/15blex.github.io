@@ -20,9 +20,7 @@ html {
   tab-size: 4;
   -moz-tab-size: 4;
   -webkit-tab-size: 4;
-  &:focus-within {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
 }
 
 body {

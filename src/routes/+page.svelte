@@ -1,2 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+  import About from "$lib/components/About.svelte";
+  import Education from "$lib/components/Education.svelte";
+  import Experience from "$lib/components/Experience.svelte";
+  import Skills from "$lib/components/Skills.svelte";
+  import Projects from "$lib/components/Projects.svelte";
+  import Languages from "$lib/components/Languages.svelte";
+
+</script>
+
+<About />
+
+<Experience />
+
+<Education />
+
+<Skills />
+
+<Languages />
+
+<Projects />
