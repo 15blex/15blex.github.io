@@ -529,56 +529,56 @@ msgstr "Dépôt GitHub"
 
 #: src/lib/components/Header.svelte
 msgid "Español"
-msgstr ""
+msgstr "Espagnol"
 
 #: src/lib/components/Header.svelte
 msgid "Català"
-msgstr ""
+msgstr "Catalan"
 
 #: src/lib/components/Header.svelte
 msgid "Français"
-msgstr ""
+msgstr "Français"
 
 #: src/lib/components/Header.svelte
 msgid "Italiano"
-msgstr ""
+msgstr "Italien"
 
 #: src/lib/components/Header.svelte
 msgid "Português"
-msgstr ""
+msgstr "Portugais"
 
 #: src/lib/components/Projects.svelte
 msgid "Domotron"
-msgstr ""
+msgstr "Domotron"
 
 #: src/lib/components/Projects.svelte
 msgid "A smart home proof of concept made from scratch Using Arduino + freeRTOS (multitasking on Arduino),"
-msgstr ""
+msgstr "Une preuve de concept de maison intelligente réalisée à partir de zéro en utilisant Arduino + freeRTOS (multitâche sur Arduino),"
 
 #: src/lib/components/Projects.svelte
 msgid "Arduino"
-msgstr ""
+msgstr "Arduino"
 
 #: src/lib/components/Projects.svelte
 msgid "Express.js"
-msgstr ""
+msgstr "Express.js"
 
 #: src/lib/components/Projects.svelte
 msgid "Angular 2"
-msgstr ""
+msgstr "Angular 2"
 
 #: src/lib/components/Projects.svelte
 msgid "Your (hidden) personal assistant"
-msgstr ""
+msgstr "Votre assistant personnel (caché)"
 
 #: src/lib/components/Projects.svelte
 msgid "Using IBM Watson we'we built a proof of concept service that allowed us to show off better products to our customers. Mocked data analysis were made on guest and logged user to provide more personal results in item reserch page."
-msgstr ""
+msgstr "En utilisant IBM Watson, nous avons construit un service de preuve de concept qui nous a permis de présenter de meilleurs produits à nos clients. Des analyses de données simulées ont été effectuées sur les utilisateurs invités et connectés pour fournir des résultats plus personnels sur la page de recherche d'articles."
 
 #: src/lib/components/Projects.svelte
 msgid "Watson"
-msgstr ""
+msgstr "Watson"
 
 #: src/lib/components/Projects.svelte
 msgid "º <0/> <1/> <2/> <3>View Project</3>"
-msgstr ""
+msgstr "º <0/> <1/> <2/> <3>Voir le projet</3>"

@@ -529,56 +529,56 @@ msgstr "Repositório GitHub"
 
 #: src/lib/components/Header.svelte
 msgid "Español"
-msgstr ""
+msgstr "Espanhol"
 
 #: src/lib/components/Header.svelte
 msgid "Català"
-msgstr ""
+msgstr "Catalão"
 
 #: src/lib/components/Header.svelte
 msgid "Français"
-msgstr ""
+msgstr "Francês"
 
 #: src/lib/components/Header.svelte
 msgid "Italiano"
-msgstr ""
+msgstr "Italiano"
 
 #: src/lib/components/Header.svelte
 msgid "Português"
-msgstr ""
+msgstr "Português"
 
 #: src/lib/components/Projects.svelte
 msgid "Domotron"
-msgstr ""
+msgstr "Domotron"
 
 #: src/lib/components/Projects.svelte
 msgid "A smart home proof of concept made from scratch Using Arduino + freeRTOS (multitasking on Arduino),"
-msgstr ""
+msgstr "Uma prova de conceito de casa inteligente feita do zero usando Arduino + freeRTOS (multitarefa no Arduino),"
 
 #: src/lib/components/Projects.svelte
 msgid "Arduino"
-msgstr ""
+msgstr "Arduino"
 
 #: src/lib/components/Projects.svelte
 msgid "Express.js"
-msgstr ""
+msgstr "Express.js"
 
 #: src/lib/components/Projects.svelte
 msgid "Angular 2"
-msgstr ""
+msgstr "Angular 2"
 
 #: src/lib/components/Projects.svelte
 msgid "Your (hidden) personal assistant"
-msgstr ""
+msgstr "Seu assistente pessoal (oculto)"
 
 #: src/lib/components/Projects.svelte
 msgid "Using IBM Watson we'we built a proof of concept service that allowed us to show off better products to our customers. Mocked data analysis were made on guest and logged user to provide more personal results in item reserch page."
-msgstr ""
+msgstr "Usando o IBM Watson, construímos um serviço de prova de conceito que nos permitiu mostrar melhores produtos aos nossos clientes. Análises de dados simulados foram feitas em usuários convidados e logados para fornecer resultados mais pessoais na página de pesquisa de itens."
 
 #: src/lib/components/Projects.svelte
 msgid "Watson"
-msgstr ""
+msgstr "Watson"
 
 #: src/lib/components/Projects.svelte
 msgid "º <0/> <1/> <2/> <3>View Project</3>"
-msgstr ""
+msgstr "º <0/> <1/> <2/> <3>Ver Projeto</3>"

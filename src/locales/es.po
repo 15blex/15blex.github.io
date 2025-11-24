@@ -529,56 +529,56 @@ msgstr "Repo GitHub"
 
 #: src/lib/components/Header.svelte
 msgid "Español"
-msgstr ""
+msgstr "Español"
 
 #: src/lib/components/Header.svelte
 msgid "Català"
-msgstr ""
+msgstr "Catalán"
 
 #: src/lib/components/Header.svelte
 msgid "Français"
-msgstr ""
+msgstr "Francés"
 
 #: src/lib/components/Header.svelte
 msgid "Italiano"
-msgstr ""
+msgstr "Italiano"
 
 #: src/lib/components/Header.svelte
 msgid "Português"
-msgstr ""
+msgstr "Portugués"
 
 #: src/lib/components/Projects.svelte
 msgid "Domotron"
-msgstr ""
+msgstr "Domotron"
 
 #: src/lib/components/Projects.svelte
 msgid "A smart home proof of concept made from scratch Using Arduino + freeRTOS (multitasking on Arduino),"
-msgstr ""
+msgstr "Una prueba de concepto de casa inteligente hecha desde cero usando Arduino + freeRTOS (multitarea en Arduino),"
 
 #: src/lib/components/Projects.svelte
 msgid "Arduino"
-msgstr ""
+msgstr "Arduino"
 
 #: src/lib/components/Projects.svelte
 msgid "Express.js"
-msgstr ""
+msgstr "Express.js"
 
 #: src/lib/components/Projects.svelte
 msgid "Angular 2"
-msgstr ""
+msgstr "Angular 2"
 
 #: src/lib/components/Projects.svelte
 msgid "Your (hidden) personal assistant"
-msgstr ""
+msgstr "Tu asistente personal (oculto)"
 
 #: src/lib/components/Projects.svelte
 msgid "Using IBM Watson we'we built a proof of concept service that allowed us to show off better products to our customers. Mocked data analysis were made on guest and logged user to provide more personal results in item reserch page."
-msgstr ""
+msgstr "Usando IBM Watson construimos un servicio de prueba de concepto que nos permitió mostrar mejores productos a nuestros clientes. Se realizaron análisis de datos simulados en usuarios invitados y registrados para proporcionar resultados más personales en la página de búsqueda de artículos."
 
 #: src/lib/components/Projects.svelte
 msgid "Watson"
-msgstr ""
+msgstr "Watson"
 
 #: src/lib/components/Projects.svelte
 msgid "º <0/> <1/> <2/> <3>View Project</3>"
-msgstr ""
+msgstr "º <0/> <1/> <2/> <3>Ver Proyecto</3>"

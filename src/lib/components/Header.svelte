@@ -9,7 +9,7 @@
   const languages = [
     { code: 'en', label: 'English', flag: '🇬🇧' },
     { code: 'es', label: 'Español', flag: '🇪🇸' },
-    { code: 'ca', label: 'Català', flag: '�' }, // Using black flag as placeholder or fallback if ES flag is confusing, but let's stick to text mainly.
+    { code: 'ca', label: 'Català', flag: '🇪🇸 🇨🇦' }, // Using black flag as placeholder or fallback if ES flag is confusing, but let's stick to text mainly.
     { code: 'fr', label: 'Français', flag: '🇫🇷' },
     { code: 'it', label: 'Italiano', flag: '🇮🇹' },
     { code: 'pt', label: 'Português', flag: '🇵🇹' },
@@ -21,6 +21,8 @@
   onMount(() => {
     // Check for saved theme preference
     const savedTheme = localStorage.getItem('theme');
+    const savedLanguage = localStorage.getItem('language');
+
     if (savedTheme) {
       if (document.startViewTransition) {
         document.startViewTransition(() => {
@@ -32,6 +34,18 @@
         document.documentElement.style.colorScheme = theme;
       }
     }
+
+    if (savedLanguage) {
+      if (document.startViewTransition) {
+        document.startViewTransition(() => {
+          language = savedLanguage;
+          loadLocale(language)
+        });
+      } else {
+        language = savedLanguage;
+        loadLocale(language)
+      }
+    }
   });
 
   const selectLanguage = (lang: string) => {
@@ -39,10 +53,12 @@
       document.startViewTransition(() => {
         language = lang;
         popover?.hidePopover();
+        localStorage.setItem('language', lang);
       });
     } else {
       language = lang;
       popover?.hidePopover();
+      localStorage.setItem('language', lang);
     }
   }
 
