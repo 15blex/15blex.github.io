@@ -1,25 +1,25 @@
 <script>
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A full-featured online store built with SvelteKit and Stripe integration. Features include a custom cart implementation, user authentication, and a responsive checkout flow.",
-      tags: ["SvelteKit", "Stripe", "TailwindCSS", "PostgreSQL"],
+      title: "Domotron",
+      description: "A smart home proof of concept made from scratch Using Arduino + freeRTOS (multitasking on Arduino),",
+      tags: ["Arduino", "freeRTOS", "Express.js", "Socket.io", "Angular 2"],
       link: "#",
-      github: "#"
+      github: "https://bitbucket.org/alexi90/domotron"
     },
     {
-      title: "Task Management App",
-      description: "A productivity tool for teams with real-time updates using WebSockets. Supports drag-and-drop task organization, team collaboration features, and dark mode.",
-      tags: ["React", "Node.js", "Socket.io", "MongoDB"],
+      title: "Your (hidden) personal assistant",
+      description: "Using IBM Watson we'we built a proof of concept service that allowed us to show off better products to our customers. Mocked data analysis were made on guest and logged user to provide more personal results in item reserch page.",
+      tags: ["Watson", "JS", ".NET",],
       link: "#",
       github: "#"
     },
     {
       title: "Portfolio Website",
       description: "A modern, high-performance personal portfolio website built with SvelteKit. Features a premium design system, dark mode support, and perfect Lighthouse scores.",
-      tags: ["Svelte", "CSS Variables", "Vite"],
-      link: "#",
-      github: "#"
+      tags: ["Svelte", "Vite"],
+      link: "https://15blex.github.io/",
+      github: "https://github.com/15blex/15blex.github.io"
     }
   ];
 </script>
@@ -29,7 +29,7 @@
   <div class="grid">
     {#each projects as project}
       <article class="project-card">
-        <div class="card-content">
+        <div class="card-content">º
           <h3>{project.title}</h3>
           <p>{project.description}</p>
           <div class="tags">

@@ -20,7 +20,7 @@
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
-        <a href="#languages">Languages</a>
+        <a href="#languages-section">Languages</a>
         <a href="#projects">Projects</a>
       </nav>
     </div>
@@ -43,7 +43,7 @@
 
   <div class="footer-bottom">
     <p>&copy; {currentYear} Alessandro Bonanno. Built with SvelteKit.</p>
-    <button class="back-to-top" on:click={scrollToTop} aria-label="Back to top">
+    <button class="back-to-top" onclick={scrollToTop} aria-label="Back to top">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
     </button>
   </div>

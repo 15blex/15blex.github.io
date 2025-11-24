@@ -403,12 +403,10 @@ msgstr "Frameworks i Llibreries"
 msgid "Svelte"
 msgstr "Svelte"
 
-#: src/lib/components/Projects.svelte
 #: src/lib/components/Skills.svelte
 msgid "SvelteKit"
 msgstr "SvelteKit"
 
-#: src/lib/components/Projects.svelte
 #: src/lib/components/Skills.svelte
 msgid "React"
 msgstr "React"
@@ -417,7 +415,6 @@ msgstr "React"
 msgid "Next.js"
 msgstr "Next.js"
 
-#: src/lib/components/Projects.svelte
 #: src/lib/components/Skills.svelte
 msgid "Node.js"
 msgstr "Node.js"
@@ -426,7 +423,6 @@ msgstr "Node.js"
 msgid "Express"
 msgstr "Express"
 
-#: src/lib/components/Projects.svelte
 #: src/lib/components/Skills.svelte
 msgid "TailwindCSS"
 msgstr "TailwindCSS"
@@ -484,37 +480,30 @@ msgstr "Accessibilitat"
 msgid "Technical Skills"
 msgstr "Habilitats Tècniques"
 
-#: src/lib/components/Projects.svelte
-msgid "E-commerce Platform"
-msgstr "Plataforma de Comerç Electrònic"
+#~ msgid "E-commerce Platform"
+#~ msgstr "Plataforma de Comerç Electrònic"
 
-#: src/lib/components/Projects.svelte
-msgid "A full-featured online store built with SvelteKit and Stripe integration. Features include a custom cart implementation, user authentication, and a responsive checkout flow."
-msgstr "Una botiga online completa construïda amb SvelteKit i integració amb Stripe. Inclou implementació de carret personalitzat, autenticació d'usuaris i flux de pagament responsiu."
+#~ msgid "A full-featured online store built with SvelteKit and Stripe integration. Features include a custom cart implementation, user authentication, and a responsive checkout flow."
+#~ msgstr "Una botiga online completa construïda amb SvelteKit i integració amb Stripe. Inclou implementació de carret personalitzat, autenticació d'usuaris i flux de pagament responsiu."
 
-#: src/lib/components/Projects.svelte
-msgid "Stripe"
-msgstr "Stripe"
+#~ msgid "Stripe"
+#~ msgstr "Stripe"
 
-#: src/lib/components/Projects.svelte
-msgid "PostgreSQL"
-msgstr "PostgreSQL"
+#~ msgid "PostgreSQL"
+#~ msgstr "PostgreSQL"
 
-#: src/lib/components/Projects.svelte
-msgid "Task Management App"
-msgstr "App de Gestió de Tasques"
+#~ msgid "Task Management App"
+#~ msgstr "App de Gestió de Tasques"
 
-#: src/lib/components/Projects.svelte
-msgid "A productivity tool for teams with real-time updates using WebSockets. Supports drag-and-drop task organization, team collaboration features, and dark mode."
-msgstr "Una eina de productivitat per a equips amb actualitzacions en temps real utilitzant WebSockets. Suporta organització de tasques arrossegar i deixar anar, funcions de col·laboració en equip i mode fosc."
+#~ msgid "A productivity tool for teams with real-time updates using WebSockets. Supports drag-and-drop task organization, team collaboration features, and dark mode."
+#~ msgstr "Una eina de productivitat per a equips amb actualitzacions en temps real utilitzant WebSockets. Suporta organització de tasques arrossegar i deixar anar, funcions de col·laboració en equip i mode fosc."
 
 #: src/lib/components/Projects.svelte
 msgid "Socket.io"
 msgstr "Socket.io"
 
-#: src/lib/components/Projects.svelte
-msgid "MongoDB"
-msgstr "MongoDB"
+#~ msgid "MongoDB"
+#~ msgstr "MongoDB"
 
 #: src/lib/components/Projects.svelte
 msgid "Portfolio Website"
@@ -524,17 +513,15 @@ msgstr "Lloc Web Portafoli"
 msgid "A modern, high-performance personal portfolio website built with SvelteKit. Features a premium design system, dark mode support, and perfect Lighthouse scores."
 msgstr "Un lloc web de portafoli personal modern i d'alt rendiment construït amb SvelteKit. Compta amb un sistema de disseny prèmium, suport per a mode fosc i puntuacions perfectes a Lighthouse."
 
-#: src/lib/components/Projects.svelte
-msgid "CSS Variables"
-msgstr "Variables CSS"
+#~ msgid "CSS Variables"
+#~ msgstr "Variables CSS"
 
 #: src/lib/components/Projects.svelte
 msgid "Featured Projects"
 msgstr "Projectes Destacats"
 
-#: src/lib/components/Projects.svelte
-msgid "View Project"
-msgstr "Veure Projecte"
+#~ msgid "View Project"
+#~ msgstr "Veure Projecte"
 
 #: src/lib/components/Projects.svelte
 msgid "GitHub Repo"
@@ -558,4 +545,40 @@ msgstr ""
 
 #: src/lib/components/Header.svelte
 msgid "Português"
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "Domotron"
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "A smart home proof of concept made from scratch Using Arduino + freeRTOS (multitasking on Arduino),"
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "Arduino"
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "Express.js"
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "Angular 2"
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "Your (hidden) personal assistant"
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "Using IBM Watson we'we built a proof of concept service that allowed us to show off better products to our customers. Mocked data analysis were made on guest and logged user to provide more personal results in item reserch page."
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "Watson"
+msgstr ""
+
+#: src/lib/components/Projects.svelte
+msgid "º <0/> <1/> <2/> <3>View Project</3>"
 msgstr ""

@@ -45,14 +45,6 @@
     margin: 0 auto;
   }
 
-  h2 {
-    font-size: 2.5rem;
-    margin-bottom: var(--space-6);
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-  }
-
   .bio-container {
     max-width: 800px;
     margin: 0 auto var(--space-6);
