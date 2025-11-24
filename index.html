@@ -5,33 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
-      rel="stylesheet"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
-        rel="stylesheet"
-      />
-    </noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Outfit&display=swap" rel="stylesheet" />
     <script>
       // Prevent theme flash
-      const theme = localStorage.getItem('theme') || 'system';
-      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      const appliedTheme = theme === 'system' ? systemTheme : theme;
-      document.documentElement.style.colorScheme = appliedTheme;
+      const theme = localStorage.getItem('theme') || 'dark';
+      document.documentElement.style.colorScheme = theme;
     </script>
     
 		<link href="./_app/immutable/assets/0.BxdIwWwq.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/2.BzCvSM2w.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.CQ6T2HD5.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BzKCNUrw.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.BiPGLaRf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BgIWazWA.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BmONthiI.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/0HUFP7M4.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.25MFFQRH.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.D57ssjJt.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/ClZ2FPfL.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BkP-l3sx.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BDWuQePT.js">
@@ -44,7 +31,7 @@
 			
 			<script>
 				{
-					__sveltekit_w2vogj = {
+					__sveltekit_kftc1e = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						assets: "/15blex.github.io"
 					};
@@ -52,8 +39,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.CQ6T2HD5.js"),
-						import("./_app/immutable/entry/app.25MFFQRH.js")
+						import("./_app/immutable/entry/start.BiPGLaRf.js"),
+						import("./_app/immutable/entry/app.D57ssjJt.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
