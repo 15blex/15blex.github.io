@@ -29,7 +29,7 @@
   <div class="grid">
     {#each projects as project}
       <article class="project-card">
-        <div class="card-content">º
+        <div class="card-content">
           <h3>{project.title}</h3>
           <p>{project.description}</p>
           <div class="tags">
@@ -87,6 +87,16 @@
     transform: translateY(-5px);
     box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.15);
     border-color: light-dark(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.2));
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+      flex-grow: 1;
+
+    p {
+      flex-grow: 1;
+    }
   }
 
   .project-card::before {

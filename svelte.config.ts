@@ -1,9 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 
 export default {
-  compileOptions: {
-    minify: true
-  },
   kit: {
     adapter: adapter(),
     paths: {

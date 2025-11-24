@@ -81,7 +81,7 @@
     margin-bottom: var(--space-3);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--color-text-3);
+    color: var(--color-text-2);
   }
 
   .footer-section p {
@@ -140,7 +140,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 0.9rem;
-    color: var(--color-text-3);
+    color: var(--color-text-2);
   }
 
   .back-to-top {

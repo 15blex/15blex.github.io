@@ -1,4 +1,0 @@
-@layer reset, tokens;
-
-@import url('./reset.css') layer(reset);
-@import url('./tokens.css') layer(tokens);

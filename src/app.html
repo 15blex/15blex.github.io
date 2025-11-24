@@ -3,15 +3,290 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <script>
+      const theme = localStorage.getItem('theme') || 'dark';
+      document.documentElement.style.colorScheme = theme;
+    </script>
+    <style>
+      /* Inter */
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url('../assets/fonts/inter-latin-ext.woff2') format('woff2');
+        unicode-range:
+          U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF,
+          U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      /* Outfit */
+      @font-face {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url('../assets/fonts/outfit-latin-ext.woff2') format('woff2');
+        unicode-range:
+          U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF,
+          U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+
+      :root {
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        interpolate-size: allow-keywords;
+        /* Fonts */
+        --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+        --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+
+        /* Colors - Primitive */
+        --color-white: #ffffff;
+        --color-black: #000000;
+        --color-gray-50: #f9fafb;
+        --color-gray-100: #f3f4f6;
+        --color-gray-200: #e5e7eb;
+        --color-gray-300: #d1d5db;
+        --color-gray-400: #9ca3af;
+        --color-gray-500: #6b7280;
+        --color-gray-600: #4b5563;
+        --color-gray-700: #374151;
+        --color-gray-800: #1f2937;
+        --color-gray-900: #111827;
+        --color-gray-950: #030712;
+
+        /* Colors - Semantic (Light/Dark) */
+        --color-bg-1: light-dark(var(--color-white), var(--color-gray-950));
+        --color-bg-2: light-dark(var(--color-gray-50), var(--color-gray-900));
+        --color-bg-3: light-dark(var(--color-gray-100), var(--color-gray-800));
+
+        --color-text-1: light-dark(var(--color-gray-900), var(--color-white));
+        --color-text-2: light-dark(var(--color-gray-600), var(--color-gray-400));
+        --color-text-3: light-dark(var(--color-gray-400), var(--color-gray-600));
+
+        --color-border: light-dark(var(--color-gray-200), var(--color-gray-800));
+        --color-primary: light-dark(var(--color-black), var(--color-white));
+
+        --color-accent: light-dark(#2563eb, #3b82f6); /* Example accent color */
+
+        /* Spacing */
+        --space-0: 0;
+        --space-1: 0.25rem; /* 4px */
+        --space-2: 0.5rem; /* 8px */
+        --space-3: 1rem; /* 16px */
+        --space-4: 1.5rem; /* 24px */
+        --space-5: 2rem; /* 32px */
+        --space-6: 2.5rem; /* 40px */
+        --space-7: 3rem; /* 48px */
+        --space-8: 3.5rem; /* 56px */
+        --space-9: 4rem; /* 64px */
+        --space-10: 5rem; /* 80px */
+        --space-11: 6rem; /* 96px */
+        --space-12: 8rem; /* 128px */
+
+        /* Radius */
+        --radius-sm: 0.25rem;
+        --radius-md: 0.5rem;
+        --radius-lg: 0.75rem;
+        --radius-xl: 1rem;
+        --radius-2xl: 1.5rem;
+        --radius-full: 9999px;
+
+        /* Shadows */
+        --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+        --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      }
+
+      *,
+      ::before,
+      ::after,
+      ::backdrop,
+      ::file-selector-button {
+        box-sizing: border-box;
+        border: 0 solid transparent;
+      }
+
+      html {
+        color-scheme: dark light;
+        hanging-punctuation: first last;
+        scroll-behavior: smooth;
+        line-height: 1.5;
+      }
+
+      body {
+        line-height: inherit;
+        font-family: var(--font-sans);
+        background-color: var(--color-bg-1);
+        color: var(--color-text-1);
+        transition:
+          background-color 0.3s ease,
+          color 0.3s ease;
+      }
+
+      hr {
+        border-block-start-width: 1px;
+        color: inherit;
+        height: 0;
+      }
+
+      abbr:where([title]) {
+        text-decoration: underline dotted;
+      }
+
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      hr,
+      p,
+      pre,
+      figure,
+      blockquote,
+      dl,
+      dd {
+        margin: 0;
+      }
+
+      fieldset {
+        margin: 0;
+        padding: 0;
+      }
+
+      legend {
+        padding: 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-wrap: balance;
+        font-weight: inherit;
+        font-size: inherit;
+        font-family: var(--font-display);
+        color: var(--color-text-1);
+      }
+
+      p,
+      li,
+      figcaption {
+        max-width: 70ch;
+        text-wrap: pretty;
+      }
+
+      ul,
+      ol,
+      menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+
+      img,
+      svg,
+      picture,
+      video,
+      canvas,
+      audio,
+      iframe,
+      embed,
+      object {
+        display: block;
+      }
+
+      img,
+      picture,
+      video {
+        max-width: 100%;
+        height: auto;
+      }
+
+      b,
+      strong {
+        font-weight: bolder;
+      }
+
+      i,
+      em {
+        font-style: italic;
+      }
+
+      code,
+      kbd,
+      samp,
+      pre {
+        font-family: monospace;
+        font-size: 1em;
+      }
+
+      small {
+        font-size: 80%;
+      }
+
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
+
+      sub {
+        bottom: -0.25em;
+      }
+
+      sup {
+        top: -0.5em;
+      }
+
+      input,
+      button,
+      optgroup,
+      textarea,
+      select {
+        color: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        margin: 0;
+        padding: 0;
+      }
+
+      button,
+      select {
+        text-transform: none;
+      }
+
+      progress {
+        vertical-align: baseline;
+      }
+
+      summary {
+        display: list-item;
+      }
+
+      [hidden] {
+        display: none;
+      }
+    </style>
     %sveltekit.head%
   </head>
-  <body data-sveltekit-preload-data="hover" data-mode="dark">
+  <body data-sveltekit-preload-data="hover">
     <div style="display: contents">%sveltekit.body%</div>
   </body>
 </html>

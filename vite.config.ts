@@ -3,5 +3,6 @@ import { defineConfig } from 'vite';
 import { wuchale } from '@wuchale/vite-plugin';
 
 export default defineConfig({
+  mode: 'production',
   plugins: [wuchale(), sveltekit()]
 });

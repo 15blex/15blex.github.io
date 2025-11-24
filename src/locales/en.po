@@ -126,6 +126,7 @@ msgstr "Select Language"
 
 #: src/lib/components/Footer.svelte
 #: src/lib/components/Header.svelte
+#: src/routes/+page.svelte
 msgid "Alessandro Bonanno"
 msgstr "Alessandro Bonanno"
 
@@ -520,8 +521,9 @@ msgstr "A modern, high-performance personal portfolio website built with SvelteK
 msgid "Featured Projects"
 msgstr "Featured Projects"
 
-#~ msgid "View Project"
-#~ msgstr "View Project"
+#: src/lib/components/Projects.svelte
+msgid "View Project"
+msgstr "View Project"
 
 #: src/lib/components/Projects.svelte
 msgid "GitHub Repo"
@@ -579,6 +581,20 @@ msgstr "Using IBM Watson we'we built a proof of concept service that allowed us 
 msgid "Watson"
 msgstr "Watson"
 
-#: src/lib/components/Projects.svelte
-msgid "º <0/> <1/> <2/> <3>View Project</3>"
-msgstr "º <0/> <1/> <2/> <3>View Project</3>"
+#~ msgid "º <0/> <1/> <2/> <3>View Project</3>"
+#~ msgstr "º <0/> <1/> <2/> <3>View Project</3>"
+
+#~ msgid "15blex"
+#~ msgstr "15blex"
+
+#: src/routes/+page.svelte
+msgid "Alessandro Bonanno - 15blex"
+msgstr "Alessandro Bonanno - 15blex"
+
+#: src/routes/+page.svelte
+msgid "Personal portfolio of Alessandro Bonanno"
+msgstr "Personal portfolio of Alessandro Bonanno"
+
+#: src/routes/+page.svelte
+msgid "Alessandro Bonanno, 15blex, portfolio, Alessandro Bonanno portfolio"
+msgstr "Alessandro Bonanno, 15blex, portfolio, Alessandro Bonanno portfolio"

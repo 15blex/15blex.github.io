@@ -24,16 +24,13 @@
     const savedLanguage = localStorage.getItem('language');
 
     if (savedTheme) {
-      if (document.startViewTransition) {
-        document.startViewTransition(() => {
-          theme = savedTheme;
-          document.documentElement.style.colorScheme = theme;
-        });
-      } else {
-        theme = savedTheme;
-        document.documentElement.style.colorScheme = theme;
-      }
+      theme = savedTheme;
+    } else {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
+    
+    // Apply theme immediately to ensure sync
+    document.documentElement.style.colorScheme = theme;
 
     if (savedLanguage) {
       if (document.startViewTransition) {

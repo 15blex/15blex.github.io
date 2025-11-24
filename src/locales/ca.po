@@ -126,6 +126,7 @@ msgstr "Seleccionar Idioma"
 
 #: src/lib/components/Footer.svelte
 #: src/lib/components/Header.svelte
+#: src/routes/+page.svelte
 msgid "Alessandro Bonanno"
 msgstr "Alessandro Bonanno"
 
@@ -520,8 +521,9 @@ msgstr "Un lloc web de portafoli personal modern i d'alt rendiment construït am
 msgid "Featured Projects"
 msgstr "Projectes Destacats"
 
-#~ msgid "View Project"
-#~ msgstr "Veure Projecte"
+#: src/lib/components/Projects.svelte
+msgid "View Project"
+msgstr "Veure Projecte"
 
 #: src/lib/components/Projects.svelte
 msgid "GitHub Repo"
@@ -579,6 +581,20 @@ msgstr "Utilitzant IBM Watson vam construir un servei de prova de concepte que e
 msgid "Watson"
 msgstr "Watson"
 
-#: src/lib/components/Projects.svelte
-msgid "º <0/> <1/> <2/> <3>View Project</3>"
-msgstr "º <0/> <1/> <2/> <3>Veure Projecte</3>"
+#~ msgid "º <0/> <1/> <2/> <3>View Project</3>"
+#~ msgstr "º <0/> <1/> <2/> <3>Veure Projecte</3>"
+
+#~ msgid "15blex"
+#~ msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Alessandro Bonanno - 15blex"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Personal portfolio of Alessandro Bonanno"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Alessandro Bonanno, 15blex, portfolio, Alessandro Bonanno portfolio"
+msgstr ""
